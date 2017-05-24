@@ -36,6 +36,7 @@
     "watchify": "^3.8.0"
   },
   "scripts": {
+    "install": "npm run build",
     "build": "babel src --out-dir lib",
     "lint": "standard \"*.js\" \"!(node_modules|lib)/!(*test-zlib*|index).js\"",
     "pretest": "npm run build",
